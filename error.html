@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Page</title>
+</head>
+
+<body>
+    <section class="error-404">
+        <div class="error-container">
+            <h1>404</h1>
+            <h2>Oops! Page Not Found</h2>
+            <p>
+                Sorry, the page you are looking for doesn’t exist or has been moved.
+                Let’s get you back on track.
+            </p>
+            <a href="./index.html" class="btn-home">Go Home</a>
+
+        </div>
+    </section>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .error-404 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #020617;
+            color: #e5e7eb;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .error-container h1 {
+            font-size: 160px;
+            font-weight: 900;
+            background: linear-gradient(90deg, #22c55e, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+        }
+
+        .error-container h2 {
+            font-size: 32px;
+            margin-bottom: 16px;
+            color: #cbd5f5;
+        }
+
+        .error-container p {
+            font-size: 18px;
+            color: #94a3b8;
+            margin-bottom: 30px;
+        }
+
+        .btn-home {
+            display: inline-block;
+            padding: 14px 38px;
+            border-radius: 30px;
+            background: linear-gradient(90deg, #22c55e, #38bdf8);
+            color: #020617;
+            font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .btn-home:hover {
+            transform: scale(1.05);
+        }
+
+        /* Illustration */
+        .error-illustration {
+            margin-top: 50px;
+        }
+
+        .error-illustration img {
+            max-width: 400px;
+            width: 100%;
+        }
+    </style>
+</body>
+
+</html>
